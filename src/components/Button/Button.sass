@@ -1,0 +1,44 @@
+.Button
+  --button_height--s: 28px
+  --button_height--m: 32px
+  --button_height--l: 36px
+
+  position: relative
+  overflow: hidden
+  border-radius: 12px
+  outline: none
+  border: none
+  transition: background-color 1s
+  box-sizing: border-box
+  min-width: 80px
+  min-height: 28px
+  color: var(--font-color)
+  padding: 0 20px
+
+  &--stretched
+    width: 100%
+
+  &--primary
+    background-color: var(--primary-color)
+
+  &--secondary
+    background-color: var(--secondary-color)
+
+  &--tertiary
+    background-color: var(--tertiary-color)
+
+
+  &_size
+    &--s
+      height: var(--button_height--s)
+
+    &--m
+      height: var(--button_height--m)
+
+    &--l
+      height: var(--button_height--l)
+
+
+  &_disable
+    background-color: var(--tertiary-color)
+    color: var(--primary-color)
