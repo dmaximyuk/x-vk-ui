@@ -1,13 +1,11 @@
 {
-  "name": "create-react-ui-lib-demo",
-  "description": "Demo library created with create-react-ui-lib",
-  "version": "1.0.4",
+  "name": "x-vk-ui",
+  "version": "1.0.0",
   "type": "module",
-  "author": "Mikhail Malyshev <topcatnocap@pm.me>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlshv/create-react-ui-lib-demo.git"
+    "url": "git+https://github.com/dmaximyuk/x-vk-ui.git"
   },
   "exports": {
     ".": {
